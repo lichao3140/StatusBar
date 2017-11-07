@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--状态栏的颜色  5.0以后-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--19  以上  21 以下-->
+        <item name="android:windowTranslucentNavigation">true</item>
+
+
+        <!--只能够变透明   不推荐这种方式-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+    </style>
+</resources>
